@@ -82,19 +82,19 @@ div.home{
 }
 
 .button1{
-    color: black;
+    color: white;
     font-size: 20px;
     padding: 10px 10px;
     border-radius:10px;
-    background: grey;
+    background: url("/Pictures/buttunoff.png");
     transition-duration: 0.5s;
     cursor: not-allowed;
     border-color: white;
 }
 
 .button1:hover{
-    color: white;
-    background: black;
+    color: grey;
+    background: url("/Pictures/buttunon.png");
 }
 
 h2{
