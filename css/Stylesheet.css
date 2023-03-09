@@ -22,13 +22,11 @@ div.fond1{
 
 body.background1{
     background: url("/Pictures/Hospital.jpg") no-repeat;
-    background: black;
     background-size: 100%;
 }
 
 body.background2{
     background: url("/Pictures/dawnback.png");
-    background: black;
     background-size: 100%;
 }
 
@@ -88,7 +86,7 @@ div.home{
     font-size: 20px;
     padding: 10px 10px;
     border-radius:10px;
-    background: url("/Pictures/buttunoff.png");
+    background: url("../Pictures/buttunoff.png");
     transition-duration: 0.5s;
     cursor: not-allowed;
     border-color: white;
@@ -96,7 +94,7 @@ div.home{
 
 .button1:hover{
     color: grey;
-    background: url("/Pictures/buttunon.png");
+    background: url("../Pictures/buttunon.png");
 }
 
 h2{
@@ -146,7 +144,6 @@ div.text_left{
 
 div.fond1{
     background: url("/Pictures/dawnback.png");
-    background: black;
 }
 select{
     background: grey;
