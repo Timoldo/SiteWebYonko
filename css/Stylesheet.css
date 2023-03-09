@@ -22,11 +22,13 @@ div.fond1{
 
 body.background1{
     background: url("/Pictures/Hospital.jpg") no-repeat;
+    background: black;
     background-size: 100%;
 }
 
 body.background2{
     background: url("/Pictures/dawnback.png");
+    background: black;
     background-size: 100%;
 }
 
@@ -144,6 +146,7 @@ div.text_left{
 
 div.fond1{
     background: url("/Pictures/dawnback.png");
+    background: black;
 }
 select{
     background: grey;
