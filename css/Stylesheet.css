@@ -172,9 +172,10 @@ option{
 div.absolute{
     position: absolute;
     padding-left: 250px;
+    width: 350px;
 }
 img.absolute{
-    padding-top: 25%;
+    padding-top: 60%;
 }
 div.right{
     text-align: right;
