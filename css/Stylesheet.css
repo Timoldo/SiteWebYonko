@@ -93,7 +93,7 @@ div.home{
     border-radius:10px;
     background: url("../Pictures/buttunoff.png");
     transition-duration: 0.5s;
-    cursor: not-allowed;
+    cursor: grab;
     border-color: white;
 }
 
