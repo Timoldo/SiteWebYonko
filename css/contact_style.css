@@ -14,6 +14,9 @@ body {
 
 h1 {
     text-align: center;
+    color: white;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 30px;
 }
 
 .social-media {
@@ -54,15 +57,9 @@ span.Home{
     text-decoration: none;
     color : inherit;
 }
-div.fond1{
+div.fond1 {
     padding-top: 1%;
     background-position: 100%;
-}
-
-h1{
-    color: white;
-    font-family: "Droid Sans", sans-serif;
-    font-size: 30px;
 }
 
 nav.haut{
@@ -124,4 +121,33 @@ div.home{
 .button1:hover{
     color: grey;
     background: url("../Pictures/buttunon.png");
+}
+
+.personnes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personne {
+    flex: 1;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.personne img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
 }
