@@ -23,15 +23,11 @@ span.Home{
 div.fond1{
     padding-top: 1%;
     background-position: 100%;
+    background-color: black;
 }
 
 body.background1{
     background: url("../Pictures/Hospital.png") no-repeat;
-    background-size: 100%;
-}
-
-body.background2{
-    background: url("../Pictures/dawnback.png");
     background-size: 100%;
 }
 
@@ -147,9 +143,6 @@ div.text_left{
     position: absolute;
 }
 
-div.fond1{
-    background: url("../Pictures/dawnback.png");
-}
 select{
     background: grey;
     color: white;

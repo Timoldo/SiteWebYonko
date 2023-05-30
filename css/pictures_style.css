@@ -14,6 +14,9 @@ body {
 
 h1 {
     text-align: center;
+    color: white;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 30px;
 }
 
 .gallery {
@@ -27,35 +30,31 @@ h1 {
     height: auto;
 }
 
-div.Home{
+div.Home {
     position: fixed;
     padding-top: 20px;
     padding-left: 20px;
     text-decoration: none;
 }
-span.Home{
+
+span.Home {
     background: white;
     background-position-x: 100px;
     background-position-y: 100px;
     border-radius: 30px;
 }
 
-.no{
+.no {
     text-decoration: none;
-    color : inherit;
+    color: inherit;
 }
-div.fond1{
+
+div.fond1 {
     padding-top: 1%;
     background-position: 100%;
 }
 
-h1{
-    color: white;
-    font-family: "Droid Sans", sans-serif;
-    font-size: 30px;
-}
-
-nav.haut{
+nav.haut {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,12 +63,12 @@ nav.haut{
     background-attachment: fixed;
 }
 
-div.link{
+div.link {
     margin-left: 50%;
     margin-right: 100px;
 }
 
-div.link a{
+div.link a {
     justify-content: center;
     text-decoration: none;
     color: white;
@@ -78,7 +77,7 @@ div.link a{
     padding-bottom: 5px;
 }
 
-div.linkbas a{
+div.linkbas a {
     justify-content: center;
     text-decoration: none;
     color: white;
@@ -86,11 +85,11 @@ div.linkbas a{
     padding-bottom: 50px;
 }
 
-div.link a:visited{
+div.link a:visited {
     color: gray;
 }
 
-div.home{
+div.home {
     text-decoration: none;
     padding-left: 12px;
     padding-right: 12px;
@@ -100,18 +99,89 @@ div.home{
     background: white;
 }
 
-.button1{
+.button1 {
     color: white;
     font-size: 20px;
     padding: 10px 10px;
-    border-radius:10px;
+    border-radius: 10px;
     background: url("../Pictures/buttunoff.png");
     transition-duration: 0.5s;
     cursor: not-allowed;
     border-color: white;
 }
 
-.button1:hover{
+.button1:hover {
     color: grey;
     background: url("../Pictures/buttunon.png");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.description {
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.gratitude-section {
+    margin-top: 20px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.gratitude-section h2 {
+    text-align: center;
+    color: #dcdcdc;
+}
+
+.gratitude-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.gratitude-section li {
+    margin-bottom: 20px;
+}
+
+.gratitude-section h3 {
+    margin-top: 0;
+    display: inline;
+    color: #dcdcdc;
+}
+
+.gratitude-section a {
+    color: #a9d9f1;
+    text-decoration: none;
+}
+
+.gratitude-section a:hover {
+    color: #7bc9ed;
 }
